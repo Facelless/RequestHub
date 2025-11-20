@@ -4,10 +4,10 @@ This is a lightweight Python script that uses `http.server` for routing and `url
 
 ## Features
 
-- 🚀 **Simple Routing** – Easily handle multiple endpoints.  
-- 🌐 **Lightweight** – No external dependencies required.  
-- 🛠️ **Easy to Extend** – Quickly modify and expand functionality.  
-- 🔄 **Local Testing** – Ideal for rapid API prototyping.
+-  **Simple Routing** – Easily handle multiple endpoints.  
+-  **Lightweight** – No external dependencies required.  
+- **Easy to Extend** – Quickly modify and expand functionality.  
+-  **Local Testing** – Ideal for rapid API prototyping.
 
 ##  Installation & Usage
 
