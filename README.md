@@ -1,23 +1,23 @@
-# 🌍 Servidor de API Simples em Python
+# Simple Python API Server
 
-Este é um script leve em Python que utiliza `http.server` para roteamento e `urllib` para lidar com requisições. Ele permite a criação de APIs básicas e é perfeito para testes locais e aprendizado sobre servidores web.
+This is a lightweight Python script that uses `http.server` for routing and `urllib` to handle requests. It enables basic API creation and is perfect for local testing and learning about web servers.
 
-## 📌 Recursos
+## Features
 
-- 🚀 **Roteamento Simples** – Manipule vários endpoints com facilidade.
-- 🌐 **Leve** – Nenhuma dependência externa necessária.
-- 🛠️ **Fácil de Expandir** – Modifique e expanda funcionalidades rapidamente.
-- 🔄 **Testes Locais** – Ideal para prototipagem rápida de APIs.
+- 🚀 **Simple Routing** – Easily handle multiple endpoints.  
+- 🌐 **Lightweight** – No external dependencies required.  
+- 🛠️ **Easy to Extend** – Quickly modify and expand functionality.  
+- 🔄 **Local Testing** – Ideal for rapid API prototyping.
 
-## 🛠 Instalação e Uso
+##  Installation & Usage
 
-### 🔹 Requisitos
+###  Requirements
 
-- 🐍 **Python 3.6+**
+-  **Python 3.6+**
 
-### 🚀 Executando o Servidor
+###  Running the Server
 
-Clone o repositório e execute o script:
+Clone the repository and run the script:
 
 ```bash
 git clone https://github.com/Facelless/RequestHub.git
@@ -25,18 +25,16 @@ cd SimplePythonAPIServer
 python server.py
 ```
 
-### 📝 Exemplo de Requisição
+###  Example Request
 
 ```bash
 curl http://localhost:8000/api/example
 ```
 
-## 📖 Como Funciona
+## 📖 How It Works
 
-- O script usa `http.server` para escutar requisições recebidas.
-- Os endpoints são definidos no próprio script para manipular diferentes requisições.
-- `urllib` processa os parâmetros da requisição e gera respostas.
+- The script uses `http.server` to listen for incoming requests.  
+- Endpoints are defined directly in the script to handle different requests.  
+- `urllib` processes request parameters and generates responses.
 
-
-Aproveite para construir sua API simples! 🚀
-
+Enjoy building your simple API! 
